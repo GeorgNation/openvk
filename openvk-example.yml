@@ -142,3 +142,13 @@ openvk:
                 addr: "127.0.0.1"
                 port: 9092
                 topic: "OvkEvents"
+
+    cms: # CMS system
+        enabled: false
+        musicAssets:
+            ddexFeed:
+                platformId: "PADPIDA3897722461G" # allocate your own DPID at dpid.ddex.net
+                platformName: "OpenVK" # use name as published in your DPID
+                processingDirectory: "/mnt/sda2/" # example dir
+
+

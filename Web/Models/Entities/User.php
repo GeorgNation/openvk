@@ -18,6 +18,7 @@ class User extends RowModel
     
     const TYPE_DEFAULT = 0;
     const TYPE_BOT     = 1;
+    const TYPE_MUSIC   = 2;
     
     const SUBSCRIPTION_ABSENT   = 0;
     const SUBSCRIPTION_INCOMING = 1;
